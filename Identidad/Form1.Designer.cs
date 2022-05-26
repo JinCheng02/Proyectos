@@ -35,6 +35,8 @@
             this.textNombre = new System.Windows.Forms.Label();
             this.boxNombre = new System.Windows.Forms.TextBox();
             this.groupID = new System.Windows.Forms.GroupBox();
+            this.comboEstado = new System.Windows.Forms.ComboBox();
+            this.textPicture = new System.Windows.Forms.TextBox();
             this.ButtIngresar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.boxID = new System.Windows.Forms.TextBox();
@@ -59,20 +61,22 @@
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.dgbCuadro = new System.Windows.Forms.DataGridView();
-            this.textPicture = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Picture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.groupID.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgbCuadro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nunito Sans SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(154, 9);
+            this.label1.Font = new System.Drawing.Font("Nunito Sans ExtraBold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(202, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(320, 36);
+            this.label1.Size = new System.Drawing.Size(193, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "CÉDULA DE IDENTIDAD";
             // 
@@ -116,6 +120,7 @@
             // 
             // groupID
             // 
+            this.groupID.Controls.Add(this.comboEstado);
             this.groupID.Controls.Add(this.textPicture);
             this.groupID.Controls.Add(this.ButtIngresar);
             this.groupID.Controls.Add(this.label2);
@@ -149,6 +154,31 @@
             this.groupID.TabStop = false;
             this.groupID.Text = "Datos Personales";
             // 
+            // comboEstado
+            // 
+            this.comboEstado.FormattingEnabled = true;
+            this.comboEstado.Items.AddRange(new object[] {
+            "Soltero",
+            "Casado",
+            "Divorciado",
+            "Separación en proceso judicial",
+            "Viudo",
+            "Concubinato"});
+            this.comboEstado.Location = new System.Drawing.Point(369, 164);
+            this.comboEstado.Name = "comboEstado";
+            this.comboEstado.Size = new System.Drawing.Size(165, 23);
+            this.comboEstado.TabIndex = 33;
+            // 
+            // textPicture
+            // 
+            this.textPicture.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.textPicture.Enabled = false;
+            this.textPicture.Location = new System.Drawing.Point(9, 153);
+            this.textPicture.Name = "textPicture";
+            this.textPicture.Size = new System.Drawing.Size(122, 23);
+            this.textPicture.TabIndex = 32;
+            this.textPicture.Visible = false;
+            // 
             // ButtIngresar
             // 
             this.ButtIngresar.Location = new System.Drawing.Point(9, 185);
@@ -162,7 +192,6 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Enabled = false;
             this.label2.Font = new System.Drawing.Font("Nunito Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(365, 18);
             this.label2.Name = "label2";
@@ -180,6 +209,7 @@
             // 
             // boxExpiracion
             // 
+            this.boxExpiracion.Enabled = false;
             this.boxExpiracion.Location = new System.Drawing.Point(368, 209);
             this.boxExpiracion.Name = "boxExpiracion";
             this.boxExpiracion.Size = new System.Drawing.Size(166, 23);
@@ -209,11 +239,11 @@
             // 
             // dateBorn
             // 
-            this.dateBorn.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateBorn.Location = new System.Drawing.Point(148, 120);
             this.dateBorn.Name = "dateBorn";
             this.dateBorn.Size = new System.Drawing.Size(211, 23);
             this.dateBorn.TabIndex = 22;
+            this.dateBorn.ValueChanged += new System.EventHandler(this.dateBorn_ValueChanged);
             // 
             // textExpiracion
             // 
@@ -379,21 +409,34 @@
             this.dgbCuadro.Size = new System.Drawing.Size(550, 147);
             this.dgbCuadro.TabIndex = 9;
             // 
-            // textPicture
+            // label3
             // 
-            this.textPicture.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.textPicture.Enabled = false;
-            this.textPicture.Location = new System.Drawing.Point(9, 153);
-            this.textPicture.Name = "textPicture";
-            this.textPicture.Size = new System.Drawing.Size(122, 23);
-            this.textPicture.TabIndex = 32;
-            this.textPicture.Visible = false;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Nunito Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(164, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(279, 26);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "JUNTA CENTRAL ELECTORAL";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(513, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(578, 533);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dgbCuadro);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonGuardar);
@@ -401,13 +444,16 @@
             this.Controls.Add(this.groupID);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sistema de Identidad";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.groupID.ResumeLayout(false);
             this.groupID.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgbCuadro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -446,6 +492,9 @@
         private System.Windows.Forms.TextBox boxID;
         private System.Windows.Forms.Button ButtIngresar;
         private System.Windows.Forms.TextBox textPicture;
+        private System.Windows.Forms.ComboBox comboEstado;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
