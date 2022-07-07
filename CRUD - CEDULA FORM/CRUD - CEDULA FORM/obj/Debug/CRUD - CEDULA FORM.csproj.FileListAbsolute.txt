@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\bin\Debug\CRUD - CEDULA FORM.exe.config
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\bin\Debug\CRUD - CEDULA FORM.exe
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\bin\Debug\CRUD - CEDULA FORM.pdb
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD___CEDULA_FORM.Form1.resources
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD___CEDULA_FORM.Properties.Resources.resources
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.exe
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.pdb
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\source\repos\CRUD - CEDULA FORM\CRUD - CEDULA FORM\obj\Debug\CRUD - CEDULA FORM.csproj.CopyComplete
