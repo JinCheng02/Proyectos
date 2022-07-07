@@ -1,0 +1,15 @@
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\bin\Debug\Control de Gasto.exe.config
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\bin\Debug\Control de Gasto.exe
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\bin\Debug\Control de Gasto.pdb
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control_de_Gasto.Form1.resources
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control_de_Gasto.Properties.Resources.resources
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.exe
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.pdb
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control_de_Gasto.FormConcept.resources
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\source\repos\Control de Gasto\Control de Gasto\obj\Debug\Control de Gasto.csproj.CopyComplete
